@@ -1,0 +1,16 @@
+{
+  "name": "dynip_node",
+  "version": "1.0.0",
+  "description": "A script for updating DNSimple DNS records with a dynamic IP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Killen",
+  "repository" : "http://github.com/akillen/dynip_node",
+  "license": "ISC",
+  "dependencies": {
+    "dnsimple": "^2.5.0",
+    "http": "0.0.0"
+  }
+}
